@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+    <style>
+        .buttons1{
+            /* Basic styling */
+            background-color: #007bff; /* Primary blue color */
+            color: white;
+            border: none;
+            border-radius: 8px; /* Slightly rounded corners */
+            padding: 12px 24px; /* Ample padding for a comfortable click area */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+            font-size: 5vw;
+            font-weight: 600; /* Semi-bold text */
+            cursor: pointer; /* Indicates interactivity */
+            text-decoration: none; /* Removes underline for <a> elements */
+            display: inline-block; /* Allows for proper padding and sizing */
+            transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transitions for hover */
+
+            /* Optional: Shadow for depth */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+            width: 10vw;
+            height: 5vh;
+        }
+
+
+        #Youtube {
+            background-color: #FF0000;
+        }
+
+        #Youtube:hover {
+            background-color: #FFFFFF;
+            color: #FF0000;
+        }
+        
+        #Insta {
+            background-color: #C13584;
+        }
+
+        #Insta:hover {
+            background-color: #FFFFFF;
+            color: #833AB4;
+        }
+        
+        #Facebook {
+            background-color: #1877F2;
+        }
+
+        #Facebook:hover {
+            background-color: #FFFFFF;
+            color: #1877F2;
+        }
+
+        #X{
+            background-color: #000000;
+        }
+       
+        #X:hover{
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+       
+
+        .buttons:hover {
+            background-color: #ffff; /* Darker blue on hover */
+            color: #007bff;
+            transform: translateY(-2px); /* Slight lift effect */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+        }
+
+        .img:hover{
+            .buttons:hover {
+            background-color: #ffff; /* Darker blue on hover */
+            color: #007bff;
+            transform: translateY(-2px); /* Slight lift effect */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+        }
+        }
+
+        .divs {
+            padding: .5vh;
+        }
+
+        .img {
+            height: 5vw;
+            width:  5vw;
+        }
+
+        #profile{
+            height: 36vw;
+            width: 24vw;
+        }
+
+    </style>
+    <body>
+        <center>
+            <div>
+                <img src="temple.jpeg" id="profile">
+            </div> 
+                <a href="https://youtube.com/@svdssdevasthanamgummaluru?si=qqj7zf1ojje5V5mI">
+                    <img src="youtube.jpg" class="img" id="Insta">
+                </a>
+                <a href="https://www.instagram.com/srisubramanyaswara_swamy?igsh=c213dDV1eHRkZ2x">
+                    <img src="Instagram.jpg" class="img" id="Insta">
+                </a>
+            
+                <a href="https://www.facebook.com/Subramnayaswamytemplegummaluru?mibextid=ZbWKwL">
+                    <img src="Facebook.png" class="img" id="fb">
+                    </button>
+                </a>
+
+                <a href="https://whatsapp.com/channel/0029Vb1Otcl3QxRtNx43wk1v">
+                    <img src="WhatsApp.png" class="img" id="x">
+                    </button>
+                </a>
+
+        </center>
+    </body>
+    <script>
+        function redirect(site){
+
+            switch(site){
+            case "Youtube":
+                window.location.href = "#";
+                break;
+            case "Instagram":
+                window.location.href = "https://www.instagram.com/ssaichaitanya?igshid=NGExMmI2YTkyZg==";
+                break;
+            }
+        }
+    </script>
+</html> 
